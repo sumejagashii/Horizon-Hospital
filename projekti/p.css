@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(11, 85, 131);
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.hero-section {
+    background-image: url('foto1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(11, 85, 131);
+    text-align: center;
+    padding: 100px;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: rgb(11, 85, 131);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.services-section {
+    background-color: #ecf0f1;
+    padding: 50px;
+    text-align: center;
+}
+
+.services-section h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.service img {
+    width: 210px;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+.footer {
+    background-color:#0B5583;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+
+
+    .navbar a {
+      font-size: 10px;
+    }
+    .hero-section{
+        padding: 30px;
+    }
+
+  }
